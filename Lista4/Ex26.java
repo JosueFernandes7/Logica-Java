@@ -1,99 +1,49 @@
 import java.util.Scanner;
-
 public class Ex26 {
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int Joao = 0, Eduardo = 0, Jair = 0, branco = 0, nulo = 0;
-        int voto = 0;
-        int eleitores = 0;
-        while (voto != -1) {
 
-            System.out.println("[1] Joao");
-            System.out.println("[2] Eduardo");
-            System.out.println("[3] Jair");
-            System.out.println("[4] Branco");
-            System.out.println("[5] Nulo");
+        System.out.println("[1]Branco [2] Nulo [3] candidatoA [4] candidatoB [5] candidatoC ");
+        int voto=0;
+        int branco=0,nulo=0,A=0,B=0,C=0;
+        while(voto != -1) {
             voto = in.nextInt();
-
-            if (voto != -1) {
-                eleitores++;
-
-                if (voto == 1) {
-                    Joao++;
-                } else if (voto == 2) {
-                    Eduardo++;
-                } else if (voto == 3) {
-                    Jair++;
-                } else if (voto == 4) {
-                    branco++;
-                } else if (voto == 5) {
-                    nulo++;
-                }
+            if(voto == 1) {
+                branco++;
+            } else if(voto == 2) {
+                nulo++;
+            } else if(voto == 3) {
+                A++;
+            } else if(voto == 4) {
+                B++;
+            } else if(voto == 5) {
+                C++;
             }
         }
-        int vencedor = 0;
-        String NomeVencedor = "";
-        if(Joao > vencedor) {
-            vencedor = Joao;
-            NomeVencedor = "Joao";
+        int eleitores = branco + nulo + A + B + C;
+        String nomeVenc = "";
+        if(A > B && A > C){
+            nomeVenc = "3";
+        } else if
+        (B > A && B > C){
+            nomeVenc = "4";
         }
-        else if (Eduardo > vencedor) {
-            vencedor = Eduardo;
-            NomeVencedor = "Eduardo";
-        }
-         else if (Jair > vencedor) {
-            vencedor = Jair;
-            NomeVencedor = "Jair";
+       else if(C > A && C > B){
+            nomeVenc = "5";
         } else {
             eleitores++;
-            if (Joao == Eduardo && Joao > Jair) {
-                System.out.println("Empate entre Joao [1] e Eduardo [2] escolha um");
-                voto = in.nextInt();
-                if (voto == 1) {
-                    vencedor = Joao + 1;
-                    NomeVencedor = "Joao";
-                } else if (voto == 2) {
-                    vencedor = Eduardo + 1;
-                    NomeVencedor = "Eduardo";
-                }
-            } else if (Joao == Jair && Joao > Eduardo) {
-                System.out.println("Empate entre Joao [1] e Jair [3] escolha um");
-                voto = in.nextInt();
-                if (voto == 1) {
-                    vencedor = Joao + 1;
-                    NomeVencedor = "Joao";
-                } else if (voto == 3) {
-                    vencedor = Jair + 1;
-                    NomeVencedor = "Jair";
-                }
-            } else if (Jair == Eduardo && Jair > Joao) {
-                System.out.println("Empate entre Eduardo [2] e Jair [3] escolha um");
-                voto = in.nextInt();
-                if (voto == 2) {
-                    vencedor = Eduardo + 1;
-                    NomeVencedor = "Eduardo";
-                } else if (voto == 3) {
-                    vencedor = Jair + 1;
-                    NomeVencedor = "Jair";
-                }
-            } else if (Jair == Eduardo && Jair == Joao) {
-                System.out.println("Empate entre Joao [1] Eduardo [2] e Jair [3] escolha um");
-                voto = in.nextInt();
-                if (voto == 1) {
-                    vencedor = Joao + 1;
-                    NomeVencedor = "Joao";
-                } else if (voto == 2) {
-                    vencedor = Eduardo + 1;
-                    NomeVencedor = "Eduardo";
-                } else if (voto == 3) {
-                    vencedor = Jair + 1;
-                    NomeVencedor = "Jair";
-                }
+            if(A==B || B==C || A==C) {
+                System.out.println("[3] VOTO(S) candidatoA = "+A);
+                System.out.println("[4] VOTO(S) candidatoB = "+B);
+                System.out.println("[5] VOTO(S) candidatoC =  "+C);
+                System.out.println("DESEMPATE");
+                nomeVenc = in.next();
             }
         }
-        System.out.println("Vencedor = " + NomeVencedor + " com " + vencedor + " voto(s)");
-        System.out.println("BRANCOS = " + branco);
-        System.out.println("Nulos = " + nulo);
-        System.out.println("Eleitores = " + eleitores);
+        System.out.println("Numero do candidato vencedor: "+nomeVenc);
+        System.out.println("Votos em Branco = "+branco);
+        System.out.println("Votos nulos = "+nulo);
+        System.out.println("Numero de Eleitores = "+eleitores);
     }
 }

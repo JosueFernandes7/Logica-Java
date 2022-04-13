@@ -30,6 +30,5 @@ public class Ex29 {
             }
             i++;
         }
-        
     }
 }

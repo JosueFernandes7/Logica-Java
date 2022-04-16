@@ -24,10 +24,10 @@ public class ex08 {
             mediaB = (teoriaB+praticaB)/2;
             
             while(bonusA > 6 || bonusA < 1){
-                bonusA = (int)(Math.random()*100);;
+                bonusA = (int)(Math.random()*10);;
             }
             while(bonusB > 6 || bonusB < 1){
-                bonusB = (int)(Math.random()*100);;
+                bonusB = (int)(Math.random()*10);;
             }
             System.out.print("#"+i+" Carta A: "+mediaA+" + "+bonusA);
             System.out.print("\n#"+i+" Carta B : "+mediaB+" + "+bonusB+"\n");

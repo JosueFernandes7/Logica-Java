@@ -5,18 +5,12 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         Scanner in = new Scanner(System.in);
-        int x,y;
-        do {
-            x = in.nextInt();
-            y = in.nextInt();
-            if(x==y) break;
-            if(x>y){
-                System.out.println("Decrescente");
-            } else {
-                System.out.println("Crescente");
-            }
-        }   while(x!=y);
+        imprimir("ola")
         
         
     }
+}
+public void imprimir( String algo ){
+		
+    System.out.println( algo );
 }

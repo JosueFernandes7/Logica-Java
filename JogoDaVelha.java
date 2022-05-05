@@ -47,7 +47,7 @@ public class JogoDaVelha {
       }
       // LINHAS
       for (int i = 0; i < posicao.length; i+=3) {
-        if(i == 0 || i == 3 || i == 6) {
+        if(i %3 == 0) {
           if (posicao[i] == posicao[i + 1] && posicao[i + 2] == posicao[i] && posicao[i] != '-') {
             System.out.println("\n\n"+posicao[i] + " VENCEU!\n");
             sair = true;

@@ -3,18 +3,25 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int[] numeros = new int[100];
-        int maior = Integer.MIN_VALUE;
-        int pos = 1;
-        for (int i = 0; i < numeros.length; i++) {
-            numeros[i] = sc.nextInt();
-            if (numeros[i] > maior) {
-                maior = numeros[i];
-                pos = i + 1;
+        Scanner in = new Scanner(System.in);
+        int distLado=0,distAltura=0;
+        int num = 1;
+        while(true) {
+            num = in.nextInt();
+            if(num == 0) break;
+            
+            int[][] matriz = new int[num][num];
+            for (int i = 0; i < matriz.length; i++) {
+                for (int j = 0; j < matriz[i].length; j++) {
+                   distLado = j;
+                   distAltura = i;
+                   if(distLado == distAltura) {
+
+                   }
+                }
             }
+
+
         }
-        System.out.println(maior);
-        System.out.println(pos);
     }
 }

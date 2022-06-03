@@ -7,16 +7,15 @@ public class Ex02 {
         Scanner in = new Scanner(System.in);
         int[] posicoes = new int[6];
         // 0 é o numero 1, 1 é o numero 2...
-        
-        do {    
+        System.out.println("Numero de lancamentos : ");
+        int lancamentos = in.nextInt();
+        for(int i =0;i<lancamentos;i++){
             System.out.print("Qual face: ");
-            int valor = in.nextInt();
+            int valor = in.nextInt()-1;
             posicoes[valor] += 1;
-            
-
-
-
-
-        } while(true);
+        }
+        for(int i=0;i<posicoes.length;i++) {
+            System.out.println("Face "+(i+1)+" = "+posicoes[i]);
+        }
     }
 }

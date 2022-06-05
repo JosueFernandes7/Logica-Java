@@ -1,3 +1,5 @@
+package Listas.Lista6;
+
 import java.util.Scanner;
 
 public class Ex10 {
@@ -20,7 +22,8 @@ public class Ex10 {
 
             System.out.println();
             cont -= 2;
-            if (cont < 1) break;
+            if (cont < 1)
+                break;
         }
     }
 }

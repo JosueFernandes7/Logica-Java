@@ -1,4 +1,7 @@
+package Listas.Lista8;
+
 import java.util.Scanner;
+
 // método simplificado
 public class Ex07 {
   public static void main(String[] agrs) {
@@ -8,10 +11,11 @@ public class Ex07 {
     do {
       System.out.print("Candidado Escolhido: ");
       escolha = in.nextInt();
-      if(escolha >0 && escolha <=5) votos[escolha-1] += 1;
-    } while(escolha!=-1);
+      if (escolha > 0 && escolha <= 5)
+        votos[escolha - 1] += 1;
+    } while (escolha != -1);
     for (int i = 0; i < votos.length; i++) {
-      System.out.println("Candidato "+(i+1)+" = "+votos[i]+" voto(s)");
+      System.out.println("Candidato " + (i + 1) + " = " + votos[i] + " voto(s)");
     }
   }
 }

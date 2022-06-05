@@ -1,15 +1,17 @@
 // FEITO
-import java.util.Scanner;
-public class ex12{
+package Listas.Lista1;
 
-    public static void main(String[] args){
+import java.util.Scanner;
+
+public class ex12 {
+
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Digite sua nota: ");
-        float nota= in.nextFloat();
-        if(nota <7){
+        float nota = in.nextFloat();
+        if (nota < 7) {
             System.out.println("VOCE ESTA EM RECUPERACAO");
-        }
-        else{
+        } else {
             System.out.println("VOCE ESTA APROVADO");
         }
     }

@@ -1,3 +1,5 @@
+package Listas.Lista8;
+
 import java.util.Scanner;
 
 // método simplificado
@@ -19,8 +21,8 @@ public class Ex08 {
       if (vetor[i] == escolha)
         igual++;
     }
-    System.out.println("Maiores = "+maiores);
-    System.out.println("Menores = "+menores);
-    System.out.println("Iguais = "+igual);
+    System.out.println("Maiores = " + maiores);
+    System.out.println("Menores = " + menores);
+    System.out.println("Iguais = " + igual);
   }
 }

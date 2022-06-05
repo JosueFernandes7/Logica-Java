@@ -1,3 +1,5 @@
+package Listas.Lista8;
+
 import java.util.Scanner;
 
 public class Ex16Desafio1 {
@@ -14,20 +16,20 @@ public class Ex16Desafio1 {
     for (int i = 0; i < vetor2.length; i++) {
       System.out.print("vetor2[" + i + "] = ");
       vetor2[i] = in.nextInt();
-      vetor_Final[i+5] = vetor2[i];
+      vetor_Final[i + 5] = vetor2[i];
     }
 
     // Bubble sort
     for (int i = 0; i < vetor_Final.length; i++) {
-      for(int j = i+1; j < vetor_Final.length; j++) {
-        if(vetor_Final[i] > vetor_Final[j]) {
+      for (int j = i + 1; j < vetor_Final.length; j++) {
+        if (vetor_Final[i] > vetor_Final[j]) {
           int aux = vetor_Final[j];
           vetor_Final[j] = vetor_Final[i];
           vetor_Final[i] = aux;
         }
       }
-      System.out.println("Vetor Final Ordenado[" + i + "] = "+vetor_Final[i]);
+      System.out.println("Vetor Final Ordenado[" + i + "] = " + vetor_Final[i]);
     }
-    
+
   }
 }

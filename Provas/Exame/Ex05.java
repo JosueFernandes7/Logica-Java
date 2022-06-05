@@ -1,14 +1,21 @@
+package Provas.Exame;
+
 import java.util.Scanner;
 import java.util.Random;
 
-public class Jogo {
+public class Ex05 {
   public static void main(String[] agrs) {
     Scanner in = new Scanner(System.in);
     boolean sair = true;
     // Y - LINHAS
     // X - COLUNA
-    Random aleat = new Random();
+
+    // Gerando posicao inicial aleatoria
+    // Random aleat = new Random();
+    // int x = aleat.nextInt(5);
+    // int y = aleat.nextInt(5);
     int x = 2, y = 2;
+
     int[][] M = new int[5][5];
     // Mostro a tabela
     do {

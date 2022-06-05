@@ -1,3 +1,5 @@
+package Listas.Lista4;
+
 import java.util.Scanner;
 
 public class Ex25 {

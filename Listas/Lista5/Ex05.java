@@ -1,8 +1,10 @@
-import java.io.IOException;
+package Listas.Lista5;
+
 import java.util.Scanner;
+
 public class Ex05 {
- 
-    public static void main(String[] args) throws IOException {
+
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         float N1 = in.nextFloat();
         float N2 = in.nextFloat();
@@ -25,8 +27,7 @@ public class Ex05 {
             System.out.printf("Media final: %.1f\n", MEDIA);
         } else {
             System.out.println("Aluno reprovado.");
-        }   	
-	
+        }
 
     }
 }

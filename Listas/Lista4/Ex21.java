@@ -1,3 +1,5 @@
+package Listas.Lista4;
+
 import java.util.Scanner;
 
 public class Ex21 {
@@ -14,7 +16,7 @@ public class Ex21 {
             num = in.nextInt();
             if (num >= 0) {
 
-                if (num % 2 == 0 ) {
+                if (num % 2 == 0) {
                     if (contpar == 0) {
                         maiorPar = num;
                     } else if (num > maiorPar) {
@@ -33,17 +35,17 @@ public class Ex21 {
                 }
             }
         }
-        if(contimpar == 0) {
-            contimpar=1;
+        if (contimpar == 0) {
+            contimpar = 1;
         }
-        if(contpar == 0) {
-            contpar=1;
+        if (contpar == 0) {
+            contpar = 1;
         }
-        mediaPar = mediaPar/contpar;
-        mediaImp = mediaImp/contimpar;
-        System.out.printf("MEDIA PAR = %.2f\n",mediaPar);
-        System.out.printf("MEDIA IMPAR = %.2f\n",mediaImp);
-        System.out.println("MAIOR PAR = "+maiorPar);
-        System.out.println("MENOR IMPAR = "+menorImp);
+        mediaPar = mediaPar / contpar;
+        mediaImp = mediaImp / contimpar;
+        System.out.printf("MEDIA PAR = %.2f\n", mediaPar);
+        System.out.printf("MEDIA IMPAR = %.2f\n", mediaImp);
+        System.out.println("MAIOR PAR = " + maiorPar);
+        System.out.println("MENOR IMPAR = " + menorImp);
     }
 }

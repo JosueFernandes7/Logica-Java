@@ -1,10 +1,12 @@
+package Listas.Lista4;
+
 import java.util.Scanner;
 
 public class Ex7 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int tentativas =1,senha;
+        int tentativas = 1, senha;
 
         System.out.print("Digite a senha: ");
         senha = in.nextInt();
@@ -13,6 +15,6 @@ public class Ex7 {
             senha = in.nextInt();
             tentativas++;
         }
-        System.out.println("Voce acertou a senha com "+tentativas+" tentativas");
+        System.out.println("Voce acertou a senha com " + tentativas + " tentativas");
     }
 }

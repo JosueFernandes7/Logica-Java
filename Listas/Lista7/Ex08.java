@@ -1,3 +1,5 @@
+package Listas.Lista7;
+
 import java.util.Scanner;
 
 public class Ex08 {
@@ -46,7 +48,7 @@ public class Ex08 {
       System.out.println(cpf + " eh valido");
     } else {
 
-      cpf = cpf*100 + novoPenultimo*10 + novoUltimo;
+      cpf = cpf * 100 + novoPenultimo * 10 + novoUltimo;
 
       System.out.println(cpf + " nao e valido! Para ser valido, deveria ser " + cpf);
     }

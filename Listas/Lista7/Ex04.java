@@ -1,3 +1,5 @@
+package Listas.Lista7;
+
 import java.util.Scanner;
 
 public class Ex04 {
@@ -25,6 +27,6 @@ public class Ex04 {
       default:
         System.out.println("Numero invalido");
     }
-    System.out.println("Valor a pagar "+valor+" R$");
+    System.out.println("Valor a pagar " + valor + " R$");
   }
 }

@@ -1,3 +1,5 @@
+package Extras;
+
 import java.util.Scanner;
 
 public class JogoDaVelha {
@@ -46,10 +48,10 @@ public class JogoDaVelha {
         posicao[pos] = 'O';
       }
       // LINHAS
-      for (int i = 0; i < posicao.length; i+=3) {
-        if(i %3 == 0) {
+      for (int i = 0; i < posicao.length; i += 3) {
+        if (i % 3 == 0) {
           if (posicao[i] == posicao[i + 1] && posicao[i + 2] == posicao[i] && posicao[i] != '-') {
-            System.out.println("\n\n"+posicao[i] + " VENCEU!\n");
+            System.out.println("\n\n" + posicao[i] + " VENCEU!\n");
             sair = true;
             break;
           }
@@ -57,16 +59,17 @@ public class JogoDaVelha {
       }
       // COLUNAS
       for (int i = 0; i < 3; i++) {
-        if(posicao[i] == posicao[i + 3] && posicao[i] == posicao[i+6] && posicao[i] != '-'){
-          System.out.println("\n\n"+posicao[i] + " VENCEU!\n");
+        if (posicao[i] == posicao[i + 3] && posicao[i] == posicao[i + 6] && posicao[i] != '-') {
+          System.out.println("\n\n" + posicao[i] + " VENCEU!\n");
           sair = true;
           break;
         }
       }
       // DIAGONAIS
-      if(((posicao[0] == posicao[4] && posicao[4] == posicao[8]) || (posicao[2] == posicao[4] && posicao[6] == posicao[4])) && 
-        posicao[4] != '-') {
-        System.out.println("\n\n"+posicao[4] + " VENCEU!\n");
+      if (((posicao[0] == posicao[4] && posicao[4] == posicao[8])
+          || (posicao[2] == posicao[4] && posicao[6] == posicao[4])) &&
+          posicao[4] != '-') {
+        System.out.println("\n\n" + posicao[4] + " VENCEU!\n");
         sair = true;
       }
 

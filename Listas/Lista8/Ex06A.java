@@ -1,3 +1,5 @@
+package Listas.Lista8;
+
 import java.util.Scanner;
 
 public class Ex06A {
@@ -7,7 +9,6 @@ public class Ex06A {
     for (int i = 0; i < letras.length; i++) {
       letras[i] = in.next().charAt(0);
 
-    }    
+    }
   }
-}  
-
+}

@@ -1,3 +1,5 @@
+package Listas.Lista7;
+
 import java.util.Scanner;
 
 public class Ex05 {
@@ -9,9 +11,9 @@ public class Ex05 {
     float atraso = in.nextFloat();
     float taxa = 0.05f;
     do {
-      mult += mult*taxa;
+      mult += mult * taxa;
       atraso--;
-    } while(atraso !=0);
-    System.out.printf("R$ %.2f",mult);
+    } while (atraso != 0);
+    System.out.printf("R$ %.2f", mult);
   }
 }

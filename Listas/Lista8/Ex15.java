@@ -1,3 +1,5 @@
+package Listas.Lista8;
+
 import java.util.Scanner;
 
 // método simplificado

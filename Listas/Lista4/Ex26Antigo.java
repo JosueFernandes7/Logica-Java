@@ -1,3 +1,5 @@
+package Listas.Lista4;
+
 import java.util.Scanner;
 
 public class Ex26Antigo {
@@ -33,15 +35,13 @@ public class Ex26Antigo {
         }
         int vencedor = 0;
         String NomeVencedor = "";
-        if(Joao > vencedor) {
+        if (Joao > vencedor) {
             vencedor = Joao;
             NomeVencedor = "Joao";
-        }
-        else if (Eduardo > vencedor) {
+        } else if (Eduardo > vencedor) {
             vencedor = Eduardo;
             NomeVencedor = "Eduardo";
-        }
-         else if (Jair > vencedor) {
+        } else if (Jair > vencedor) {
             vencedor = Jair;
             NomeVencedor = "Jair";
         } else {

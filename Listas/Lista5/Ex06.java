@@ -1,9 +1,10 @@
-import java.io.IOException;
+package Listas.Lista5;
+
 import java.util.Scanner;
 
 public class Ex06 {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         float x, y;
         x = in.nextFloat();

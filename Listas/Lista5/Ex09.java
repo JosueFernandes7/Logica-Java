@@ -1,3 +1,5 @@
+package Listas.Lista5;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -6,10 +8,10 @@ public class Ex09 {
     public static void main(String[] args) throws IOException {
         Scanner in = new Scanner(System.in);
         int maior = Integer.MIN_VALUE;
-        int contpos = 1,pos=0;
-        while(contpos <=100){
+        int contpos = 1, pos = 0;
+        while (contpos <= 100) {
             int numero = in.nextInt();
-            if(numero > maior){
+            if (numero > maior) {
                 maior = numero;
                 pos = contpos;
             }
@@ -18,8 +20,6 @@ public class Ex09 {
         }
         System.out.println(maior);
         System.out.println(pos);
-        
-        
-        
+
     }
 }

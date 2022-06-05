@@ -1,3 +1,5 @@
+package Extras.P4;
+
 import java.util.Scanner;
 
 public class ex02 {

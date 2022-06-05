@@ -1,4 +1,7 @@
+package Listas.Lista7;
+
 import java.util.Scanner;
+
 // QUESTÃO 1 = QUESTÃO 3  
 public class Ex01 {
   public static void main(String[] agrs) {
@@ -14,7 +17,7 @@ public class Ex01 {
       case 2, 3, 4, 5, 6:
         System.out.println("Dia util");
         break;
-        
+
       default:
         System.out.println("Dia invalido!");
     }

@@ -1,8 +1,11 @@
 // FEITO
-import java.util.Scanner;
-public class ex18{
+package Listas.Lista2;
 
-    public static void main(String[] args){
+import java.util.Scanner;
+
+public class ex18 {
+
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Numero de carros vendidos: ");
         float nCarros = in.nextFloat();
@@ -12,15 +15,13 @@ public class ex18{
 
         System.out.print("Salario fixo: ");
         float salarioFix = in.nextFloat();
-        
+
         System.out.print("Valor total Vendas: ");
         float vTot = in.nextFloat();
-        
-        float salario = (float)(nCarros*carro + salarioFix + vTot*1.05);
 
-        System.out.printf("Salario = R$ %.2f",salario);
-        
-        
+        float salario = (float) (nCarros * carro + salarioFix + vTot * 1.05);
+
+        System.out.printf("Salario = R$ %.2f", salario);
 
     }
 }

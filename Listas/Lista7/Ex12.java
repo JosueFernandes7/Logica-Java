@@ -1,3 +1,5 @@
+package Listas.Lista7;
+
 import java.util.Scanner;
 
 public class Ex12 {
@@ -10,13 +12,13 @@ public class Ex12 {
 
     switch (codigo) {
       case 3:
-        compra -= compra*5/100f;
+        compra -= compra * 5 / 100f;
         break;
       case 2:
-        compra -= compra*10/100f;
+        compra -= compra * 10 / 100f;
         break;
       default:
     }
-    System.out.printf("Valor a ser pago R$ %.2f",compra);
+    System.out.printf("Valor a ser pago R$ %.2f", compra);
   }
 }

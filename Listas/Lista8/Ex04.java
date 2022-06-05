@@ -1,4 +1,7 @@
+package Listas.Lista8;
+
 import java.util.Scanner;
+
 // método simplificado
 public class Ex04 {
   public static void main(String[] agrs) {
@@ -9,10 +12,10 @@ public class Ex04 {
     System.out.print("Digite " + vetor.length + " valores: ");
     for (int i = 0; i < vetor.length; i++) {
       vetor[i] = in.nextInt();
-      if(vetor[i] % 2 == 0) {
-        mostrarPar += vetor[i]+" eh par\n";
+      if (vetor[i] % 2 == 0) {
+        mostrarPar += vetor[i] + " eh par\n";
       } else {
-        mostrarImpar += vetor[i]+" eh impar\n";
+        mostrarImpar += vetor[i] + " eh impar\n";
       }
     }
     System.out.print(mostrarPar);

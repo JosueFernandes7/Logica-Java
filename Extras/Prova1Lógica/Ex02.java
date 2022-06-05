@@ -1,3 +1,4 @@
+package Extras.Prova1Lógica;
 import java.util.Scanner;
 
 public class Ex02 {

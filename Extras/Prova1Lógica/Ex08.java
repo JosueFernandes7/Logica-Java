@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Ex08 {
@@ -7,7 +8,7 @@ public class Ex08 {
         int opcao = 0;
         String lista = "";
         int maior = Integer.MIN_VALUE;
-        int menor =  Integer.MAX_VALUE;
+        int menor = Integer.MAX_VALUE;
 
         while (opcao != 5) {
             System.out.println("Menu de opcoes:");
@@ -32,9 +33,9 @@ public class Ex08 {
                 if (valor > maior) {
                     maior = valor;
                 }
-            } else if ( opcao == 2) {
+            } else if (opcao == 2) {
                 System.out.println("MAIOR VALOR: " + maior);
-            } else if ( opcao == 3) {
+            } else if (opcao == 3) {
                 System.out.println("MENOR VALOR: " + menor);
             } else if (opcao == 4) {
                 System.out.println(lista);

@@ -1,4 +1,3 @@
-package Extras.P2;
 
 import java.util.Scanner;
 

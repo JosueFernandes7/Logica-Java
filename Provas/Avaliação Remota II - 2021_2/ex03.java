@@ -1,4 +1,3 @@
-package Extras.P4;
 
 import java.util.Scanner;
 
@@ -39,12 +38,12 @@ public class ex03 {
                 soma = soma - maior - menor;
                 if (j == 1) {
                     notaMaior = soma;
-                    pontMaior = "Maior pontuacao "+nome+" "+soma+" pts";
+                    pontMaior = "Maior pontuacao " + nome + " " + soma + " pts";
                     j++;
                 }
                 if (soma > notaMaior) {
                     notaMaior = soma;
-                    pontMaior = "Maior pontuacao "+nome+" "+soma+" pts";
+                    pontMaior = "Maior pontuacao " + nome + " " + soma + " pts";
                 }
                 resultado += nome + " = " + soma + "\n";
             }

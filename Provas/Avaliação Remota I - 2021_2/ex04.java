@@ -1,11 +1,10 @@
-package Extras.P3;
-
 
 import java.util.Scanner;
+
 public class ex04 {
-    
+
     public static void main(String[] args) {
-        
+
         Scanner in = new Scanner(System.in);
         String escolha = "";
         System.out.print("Quantas pessoas vao viajar: ");
@@ -18,18 +17,18 @@ public class ex04 {
         double gasol = in.nextDouble();
         System.out.print("Quantos Kilometros por litro: ");
         double kml = in.nextDouble();
-        double total = dist/kml*gasol;
+        double total = dist / kml * gasol;
 
-        passagem = passagem*alunos;
-        if(passagem < total){
+        passagem = passagem * alunos;
+        if (passagem < total) {
             escolha = "Onibus";
-        } else if(passagem > total){
+        } else if (passagem > total) {
             escolha = "Carro";
         } else {
             escolha = "Os dois deram o mesmo preco";
         }
-        System.out.printf("Carro %.2f R$\n",total);
-        System.out.printf("Onibus %.2f R$\n",passagem);
-        System.out.println("\tEscolha = "+escolha);
+        System.out.printf("Carro %.2f R$\n", total);
+        System.out.printf("Onibus %.2f R$\n", passagem);
+        System.out.println("\tEscolha = " + escolha);
     }
 }

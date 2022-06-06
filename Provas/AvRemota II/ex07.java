@@ -1,4 +1,3 @@
-package Extras.P2;
 
 import java.util.Scanner;
 
@@ -9,21 +8,21 @@ public class ex07 {
         System.out.print("Informe a quantidade de valores: ");
         int valores = in.nextInt();
         int quedas = 0;
-        int numero,anterior=0,contnum=0;
-        
-        while(valores != 0){
+        int numero, anterior = 0, contnum = 0;
+
+        while (valores != 0) {
             numero = in.nextInt();
-            if(contnum == 0){
+            if (contnum == 0) {
                 anterior = numero;
-                contnum=1;
+                contnum = 1;
             }
-            if(numero < anterior){
+            if (numero < anterior) {
                 quedas++;
             }
 
             anterior = numero;
             valores--;
         }
-        System.out.println("Resultado = "+quedas+" quedas");
+        System.out.println("Resultado = " + quedas + " quedas");
     }
 }

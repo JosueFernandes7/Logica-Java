@@ -72,7 +72,7 @@ public class Ex12 {
             sair = true;
             break;
           }
-          // Diagonal Secundariaa
+          // Diagonal Secundaria
           if (MA[1][1] == MA[0][2] && MA[1][1] == MA[2][0] && MA[1][1] != '-') {
             System.out.println(escolha + " VENCEU!");
             sair = true;

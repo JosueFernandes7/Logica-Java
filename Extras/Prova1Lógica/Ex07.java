@@ -1,4 +1,6 @@
-package Extras.Prova1Lógica;
+
+package Prova1Lógica;
+
 import java.util.Scanner;
 
 public class Ex07 {
@@ -14,9 +16,9 @@ public class Ex07 {
             int ultimoDigito = numero % 10;
             invertido = (invertido * 10) + ultimoDigito;
             System.out.println(ultimoDigito);
-            numero /= 10;  
+            numero /= 10;
         }
-       
+
         System.out.println(invertido);
     }
 }

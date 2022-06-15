@@ -1,4 +1,5 @@
-package Extras.Prova1Lógica;
+package Prova1Lógica;
+
 import java.util.Scanner;
 
 public class Ex05 {
@@ -13,13 +14,13 @@ public class Ex05 {
             novoValor = in.nextInt();
 
             if (novoValor != 0)
-            if (novoValor % primeiroValor == 0) {
-                System.out.println("MULTIPLO DO ANTERIOR");
-            } else if (primeiroValor % novoValor == 0) {
-                System.out.println("DIVISOR DO ANTERIOR");
-            } else {
-                System.out.println("NAO TEM RELACAO");
-            }
+                if (novoValor % primeiroValor == 0) {
+                    System.out.println("MULTIPLO DO ANTERIOR");
+                } else if (primeiroValor % novoValor == 0) {
+                    System.out.println("DIVISOR DO ANTERIOR");
+                } else {
+                    System.out.println("NAO TEM RELACAO");
+                }
 
             primeiroValor = novoValor;
         }

@@ -1,4 +1,4 @@
-package Extras.Prova1Lógica;
+package Prova1Lógica;
 
 import java.util.Scanner;
 

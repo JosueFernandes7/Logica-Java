@@ -1,0 +1,15 @@
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\bin\Debug\net7.0\PrimeiroProjetoXd.exe
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\bin\Debug\net7.0\PrimeiroProjetoXd.deps.json
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\bin\Debug\net7.0\PrimeiroProjetoXd.runtimeconfig.json
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\bin\Debug\net7.0\PrimeiroProjetoXd.dll
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\bin\Debug\net7.0\PrimeiroProjetoXd.pdb
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\obj\Debug\net7.0\PrimeiroProjetoXd.csproj.AssemblyReference.cache
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\obj\Debug\net7.0\PrimeiroProjetoXd.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\obj\Debug\net7.0\PrimeiroProjetoXd.AssemblyInfoInputs.cache
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\obj\Debug\net7.0\PrimeiroProjetoXd.AssemblyInfo.cs
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\obj\Debug\net7.0\PrimeiroProjetoXd.csproj.CoreCompileInputs.cache
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\obj\Debug\net7.0\PrimeiroProjetoXd.dll
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\obj\Debug\net7.0\refint\PrimeiroProjetoXd.dll
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\obj\Debug\net7.0\PrimeiroProjetoXd.pdb
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\obj\Debug\net7.0\PrimeiroProjetoXd.genruntimeconfig.cache
+D:\C#Nélio\Projetos\PrimeiroProjetoXd\PrimeiroProjetoXd\obj\Debug\net7.0\ref\PrimeiroProjetoXd.dll

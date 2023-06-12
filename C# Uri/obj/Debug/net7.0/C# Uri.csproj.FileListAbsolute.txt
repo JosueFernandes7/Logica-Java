@@ -1,0 +1,15 @@
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\bin\Debug\net7.0\C# Uri.exe
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\bin\Debug\net7.0\C# Uri.deps.json
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\bin\Debug\net7.0\C# Uri.runtimeconfig.json
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\bin\Debug\net7.0\C# Uri.dll
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\bin\Debug\net7.0\C# Uri.pdb
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\obj\Debug\net7.0\C# Uri.csproj.AssemblyReference.cache
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\obj\Debug\net7.0\C# Uri.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\obj\Debug\net7.0\C# Uri.AssemblyInfoInputs.cache
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\obj\Debug\net7.0\C# Uri.AssemblyInfo.cs
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\obj\Debug\net7.0\C# Uri.csproj.CoreCompileInputs.cache
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\obj\Debug\net7.0\C# Uri.dll
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\obj\Debug\net7.0\refint\C# Uri.dll
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\obj\Debug\net7.0\C# Uri.pdb
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\obj\Debug\net7.0\C# Uri.genruntimeconfig.cache
+D:\Documentos Josué\02. Programação\03. GitHubRepositórios\Logica-Java\C# Uri\obj\Debug\net7.0\ref\C# Uri.dll

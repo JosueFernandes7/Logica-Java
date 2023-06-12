@@ -1,40 +1,40 @@
 package apresentacao;
 
 import java.sql.*;
-import java.util.Scanner;
+
+import negocio.Atendimento;
+import persistencia.AtendimentoDAO;
 
 public class Main {
   public static void main(String[] args) throws SQLException {
     System.out.println("Iniciando...");
+    // deletar
+    // atendimentoDAO.deletar(1);
 
-    // String dbname = "hospital";
-    // String user = "postgres";
-    // String password = "admin";
-    // String url = "jdbc:postgresql://localhost:5432/" + dbname;
+    // adicionar
 
-    // Connection connection = DriverManager.getConnection(url, user, password);
-    
-    // ConexaoPostgreSQL conexao = new ConexaoPostgreSQL();
-    // Connection connection = conexao.getConexao();
-    
-    Scanner in = new Scanner(System.in);
-    in.close();
-    // System.out.print("Digite um id: ");
-    // int idBusca = in.nextInt();
+    // atendimento adicionar 
+    // Atendimento atendimento = new Atendimento();
+    // atendimento.setDiagnostico("TUMOR");
+    // atendimento.setFuncionario_codigo(2);
+    // atendimento.setPaciente_id(2);
+    // atendimento.setData_consulta("2023-09-07 22:12:12");
+    // atendimentoDAO.adicionar(atendimento);
 
-    // String sqlBusca = "SELECT * FROM funcionario WHERE codigo = ?;";
-    // PreparedStatement preparedStatement = connection.prepareStatement(sqlBusca);
-    // preparedStatement.setInt(1, idBusca);
-    // ResultSet rs = preparedStatement.executeQuery();
-    // Funcionario funcionario = new Funcionario();
-    // if(rs.next()) {
-    //   funcionario.setCodigo(rs.getInt("codigo"));
-    //   funcionario.setNome(rs.getString("nome"));
-    //   funcionario.setEmail(rs.getString("email"));
-    //   funcionario.setSenha(rs.getString("senha"));
-    //   funcionario.setCargo_id(rs.getInt("cargo_id"));
-    // }
+    // atualizar
+    // Atendimento atendimento = new Atendimento();
+    // atendimento.setCodigo(1);
+    // atendimento.setData_consulta("1900-01-01 23:00:00");
+    // atendimento.setPaciente_id(1);
+    // atendimento.setFuncionario_codigo(1);
+    // atendimento.setDiagnostico("DOR DE BARRIGA");
+    // atendimentoDAO.atualizar(atendimento);
+    // System.out.println(atendimento.getCodigo());
 
-      // System.out.println(funcionario.obter(4).toString());
+    AtendimentoDAO atendimentoDAO = new AtendimentoDAO();
+    Atendimento atendimento = atendimentoDAO.obter(2);
+    System.out.println(atendimento.toString());
+    new MinhaGUI();
+
   }
 }

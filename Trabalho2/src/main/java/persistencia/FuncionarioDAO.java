@@ -18,6 +18,7 @@ public class FuncionarioDAO {
     connection.close();
     return resultado == 1;
   }
+
   public Funcionario obter(int codigo) throws SQLException {
     String sql = "SELECT * FROM funcionario WHERE codigo = ?;";
     Connection connection = new ConexaoPostgreSQL().getConexao();

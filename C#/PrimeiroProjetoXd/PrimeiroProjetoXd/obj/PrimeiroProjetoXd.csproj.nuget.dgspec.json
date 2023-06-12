@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#Nélio\\Projetos\\PrimeiroProjetoXd\\PrimeiroProjetoXd\\PrimeiroProjetoXd.csproj": {}
+    "D:\\Documentos Josué\\02. Programação\\03. GitHubRepositórios\\Logica-Java\\C#\\PrimeiroProjetoXd\\PrimeiroProjetoXd\\PrimeiroProjetoXd.csproj": {}
   },
   "projects": {
-    "D:\\C#Nélio\\Projetos\\PrimeiroProjetoXd\\PrimeiroProjetoXd\\PrimeiroProjetoXd.csproj": {
+    "D:\\Documentos Josué\\02. Programação\\03. GitHubRepositórios\\Logica-Java\\C#\\PrimeiroProjetoXd\\PrimeiroProjetoXd\\PrimeiroProjetoXd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#Nélio\\Projetos\\PrimeiroProjetoXd\\PrimeiroProjetoXd\\PrimeiroProjetoXd.csproj",
+        "projectUniqueName": "D:\\Documentos Josué\\02. Programação\\03. GitHubRepositórios\\Logica-Java\\C#\\PrimeiroProjetoXd\\PrimeiroProjetoXd\\PrimeiroProjetoXd.csproj",
         "projectName": "PrimeiroProjetoXd",
-        "projectPath": "D:\\C#Nélio\\Projetos\\PrimeiroProjetoXd\\PrimeiroProjetoXd\\PrimeiroProjetoXd.csproj",
+        "projectPath": "D:\\Documentos Josué\\02. Programação\\03. GitHubRepositórios\\Logica-Java\\C#\\PrimeiroProjetoXd\\PrimeiroProjetoXd\\PrimeiroProjetoXd.csproj",
         "packagesPath": "C:\\Users\\Josué\\.nuget\\packages\\",
-        "outputPath": "D:\\C#Nélio\\Projetos\\PrimeiroProjetoXd\\PrimeiroProjetoXd\\obj\\",
+        "outputPath": "D:\\Documentos Josué\\02. Programação\\03. GitHubRepositórios\\Logica-Java\\C#\\PrimeiroProjetoXd\\PrimeiroProjetoXd\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Arquivos e Programas\\Microsoft Visual Studio\\Shared\\NuGetPackages"
